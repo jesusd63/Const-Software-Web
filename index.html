@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Retro website</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+        <script src="main.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div id="FULL">
+            <div class="entry">
+                <h1>Welcome to the</h1>
+                <h1 id="head1">Drivy Awards!</h1>
+                <img id="award" src="Drivy Awards.png" alt="The Drivy Award, equal to an oscar, but with Adam Driver's face photoshopped" >
+                <h2>This year has been great for movies, and the proof is here at the Drivy Awards</h2>
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="leo_drivy.webp" class="d-block w-100" alt="Leonardo Dicaprio looking at the camera, receiving his drivy award for best actor">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5><span>Leonardo Dicaprio</span></h5>
+                        <p><span>Leonardo Dicaprio receiving his Drivy Award in 2017.</span></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="andrew_drivy.webp" class="d-block w-100" alt="Andrew Garfield, well dressed, attending the drivy awards">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5><span>Andrew Garfield</span></h5>
+                        <p><span>Andrew Garfield attending the drivy awards.</span></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="emma-stone-drivy.webp" class="d-block w-100" alt="Emma Stone receiving her drivy award for her performance in the movie La La Land">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5><span>Emma Stone</span></h5>
+                        <p><span>Emma Stone giving her winning speech for her performance in La La Land.</span></p>
+                        </div>
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div id="full-list">
+                    <h3 id="list">List of nominees:</h3>
+                    <h3>Click on the awards to see the nominees</h3>
+                    <ul id="nominees-list">
+                        <li class="nom-el" id="best-pic">Best Picture</li>
+                        <div class="noms" id="noms-pic">
+                            <img src="eeaao_poster.webp" alt="Poster of the movie Everything Everywhere All At Once" class="poster">
+                            <img src="chacha_poster.jpg" alt="Poster of the movie Cha Cha Real Smooth" class="poster">
+                            <img src="thewhale_poster.jpg" alt="Poster of the movie The Whale" class="poster">
+                            <img src="aftersun_poster.jpg" alt="Poster of the movie Aftersun" class="poster">
+                            <img src="girlpicture_poster.jpg" alt="Poster of the movie Girl Picture" class="poster">
+                        </div>
+                        <li class="nom-el" id="best-dir">Best Director</li>
+                        <div class="noms" id="noms-dir">
+                            <img src="fabelmans_poster.jpg" alt="Poster of the movie The Fabelmans" class="poster">
+                            <img src="nope_poster.webp" alt="Poster of the movie Nope" class="poster">
+                            <img src="bardo_poster.webp" alt="Poster of the movie Bardo" class="poster">
+                            <img src="aftersun_poster.jpg" alt="Poster of the movie Aftersun" class="poster">
+                            <img src="babylon_poster.jpg" alt="Poster of the movie Babylon" class="poster">
+                        </div>
+                        <li class="nom-el" id="best-acto">Best Actor</li>
+                        <div class="noms" id="noms-acto">
+                            <img src="elvis_poster.webp" alt="Poster of the movie Elvis" class="poster">
+                            <img src="banshees_poster.webp" alt="Poster of the movie Banshees of Inisherin" class="poster">
+                            <img src="thewhale_poster.jpg" alt="Poster of the movie The Whale" class="poster">
+                            <img src="aftersun_poster.jpg" alt="Poster of the movie Aftersun" class="poster">
+                            <img src="babylon_poster.jpg" alt="Poster of the movie Babylon" class="poster">
+                        </div>
+                        <li class="nom-el" id="best-actre">Best Actress</li>
+                        <div class="noms" id="noms-actre">
+                            <img src="eeaao_poster.webp" alt="Poster of the movie Everything Everywhere All At Once" class="poster">
+                            <img src="tar_poster.webp" alt="Poster of the movie Tar" class="poster">
+                            <img src="fabelmans_poster.jpg" alt="Poster of the movie The Fabelmans" class="poster">
+                            <img src="blonde_poster.jpg" alt="Poster of the movie Blonde" class="poster">
+                            <img src="girlpicture_poster.jpg" alt="Poster of the movie Girl Picture" class="poster">
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <div class="nest">
+                <btn id="next_btn" onclick="loadDoc()">Next page</btn>
+                <a class="btn btn-primary" href="#" role="button">Link</a>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script>
+            function loadDoc() {
+              var xhttp = new XMLHttpRequest();
+              xhttp.onload = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                  document.getElementById("FULL").innerHTML =
+                  this.responseText;
+                }
+              };
+              xhttp.open("GET", "Page1.html", true);
+              xhttp.send();
+            }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,107 @@
+@font-face {
+    src: url("magic_retro/Magic\ Retro.ttf");
+    font-family: Retro;
+}
+
+@font-face {
+    font-family: Nugelo;
+    src: url(nugelo/Nugelo.ttf);
+}
+
+h1{
+    font-size: 120px;
+    font-family: Retro;
+    margin-top: 0px;
+    margin-bottom: -20px;
+    text-align: center;
+
+}
+
+body {
+    background-color: brown;
+    font-family: Nugelo;
+}
+
+#award {
+    width: 430px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.next {
+    margin: 100px 100px;
+}
+
+#next_btn {
+    width: 110px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    border-color: black;
+    background: white;
+    cursor: pointer;
+    display: block;
+    margin-right: 15px;
+    margin-left: auto;
+}
+
+.carousel-item{
+    height: 500px;
+    width: 100%;
+} 
+.carousel-item img{
+    height: 500px;
+    object-fit: scale-down;
+}
+
+.carousel .carousel-inner{
+    height:500px
+}
+
+@media(max-width:768px){
+    .carousel .carousel-inner{
+        height:auto
+    }
+}
+
+p span{
+    background-color: black;
+}
+
+h5 span{
+    background-color: black;
+}
+
+#list {
+    margin-top: 50px;
+}
+
+#full-list {
+    text-align: center;
+}
+
+#nominees-list {
+    display: inline-block;
+    text-align: justify;
+}
+
+.nom-el {
+    cursor: pointer;
+}
+
+.poster {
+    width: 200px;
+}
+
+.noms {
+    display: block;
+}
